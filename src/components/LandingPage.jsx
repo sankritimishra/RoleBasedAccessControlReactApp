@@ -26,8 +26,10 @@ import React from 'react';
 import { Typography, Button, Box } from '@mui/material';
 import Particles from 'react-tsparticles'; // Particle animation
 import './LandingPage.css';
+import { Link, useNavigate } from 'react-router-dom';
 
 const LandingPage = () => {
+  const navigate = useNavigate();
   return (
     <Box className="landing-page" textAlign="center" p={4} style={{ position: 'relative' }}>
       {/* Particle Background */}
@@ -49,10 +51,10 @@ const LandingPage = () => {
           and simplify access management. Manage users, assign roles, and define permissions easily.
         </Typography>
         <Box mt={4}>
-          <Button variant="contained" color="primary" href="/users" style={{ marginRight: '10px' }}>
+          <Button variant="contained" color="primary" onClick={() => navigate('/users')} style={{ marginRight: '10px' }}>
             Manage Users
           </Button>
-          <Button variant="contained" color="secondary" href="/roles">
+          <Button variant="contained" color="secondary" onClick={() => navigate('/roles')}>
             Manage Roles
           </Button>
         </Box>
