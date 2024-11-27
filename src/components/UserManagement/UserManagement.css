@@ -1,0 +1,30 @@
+.user-management{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Space between header and table */
+}
+
+.add-user-button {
+    background-color: #133E87; /* Button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-user-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+
+  .email{
+    margin-top: -10px;
+  }
+
+  .active-inactive-choice{
+    margin-top: 10px;
+  }
+
+  

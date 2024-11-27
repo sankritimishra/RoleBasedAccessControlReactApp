@@ -1,0 +1,88 @@
+/* General styles for the application */
+/* body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+button {
+  font-family: 'Roboto', Arial, sans-serif;
+} */
+
+
+/* App.css */
+
+/* Buttons */
+button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Modals */
+.modal {
+  background-color: var(--background-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+table tbody tr {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+table tbody tr:hover {
+  background-color: var(--accent-color);
+  color: #000;
+}
+
+/* Cards */
+.card {
+  background-color: var(--background-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}

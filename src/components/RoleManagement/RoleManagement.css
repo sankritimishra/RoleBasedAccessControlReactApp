@@ -1,0 +1,33 @@
+/* RoleManagementPage.css */
+.table-header {
+    color: #fff; /* White text */
+  }
+  
+  .table-header th {
+    color: #fff;
+  }
+  
+.role-management{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Space between header and table */
+}
+
+.add-role-button {
+    background-color: #133E87; /* Button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-role-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+
+  .save-button{
+    align-self: center;
+  }

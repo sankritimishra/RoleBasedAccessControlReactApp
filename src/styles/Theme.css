@@ -1,0 +1,70 @@
+/* :root {
+    
+    --primary-color: #1976d2;
+    --secondary-color: #dc004e;
+  
+    
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    --card-background: #ffffff;
+  
+    
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .container {
+    background-color: var(--card-background);
+    box-shadow: var(--box-shadow);
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
+   */
+
+   /* Theme.css */
+:root {
+    /* Palette Colors */
+    --primary-color: #133E87;
+    --secondary-color:#608BC1;
+    --background-color: #F9FAFB;
+    --accent-color: #CBDCEB;
+  
+    /* Text Colors */
+    --text-color-primary: #133E87; /* Matches Primary */
+    --text-color-secondary: #608BC1; /* Matches Secondary */
+  }
+  
+  /* General Application Styles */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color-primary);
+  }
+  
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

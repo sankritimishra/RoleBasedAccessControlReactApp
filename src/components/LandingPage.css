@@ -1,0 +1,76 @@
+/* LandingPage.css */
+
+/* Animation for fading in and moving from the top */
+/* @keyframes fadeInTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  
+  /* Apply the animation 
+  .fade-in-top {
+    animation: fadeInTop 1.5s ease-out;
+    opacity: 0; /* Ensure opacity starts at 0 
+    animation-fill-mode: forwards; */
+    /* Ensure it stays at final position after animation 
+  } */
+  
+  /* LandingPage.css */
+/* .landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.particles-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.landing-content {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+} */
+/* LandingPage.css */
+ .landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding-top: 50px; 
+  position: relative;
+}
+
+.particles-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.landing-content {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(120px); 
+} 
+
+
